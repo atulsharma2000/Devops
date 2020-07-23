@@ -54,6 +54,9 @@
       - exposing it to port 8080
       
 (3) Now building an image from the Dockerfile and running it: 
+![2](https://user-images.githubusercontent.com/41663027/88308579-d723f580-cd2a-11ea-8a6f-ddf1a1a1df60.PNG)
+![3](https://user-images.githubusercontent.com/41663027/88308741-0470a380-cd2b-11ea-8162-bf13e8b615a1.PNG)
+
       - docker build -t centkins:v1 task2/
       - docker run -it --name task centkins:v1
       
