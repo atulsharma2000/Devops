@@ -78,7 +78,9 @@
 ![j3](https://user-images.githubusercontent.com/41663027/88317259-a77aea80-cd36-11ea-8e5a-c258388cef9f.PNG)
 
       - here status of ip "192.168.190.128" should be 200, then only it will be considered working else it will exit 1.
-
+      
+ (7) Adding mailing feature so if unstable, it will mail and let us know to fix it.
+![mail](https://user-images.githubusercontent.com/41663027/88318341-35a3a080-cd38-11ea-9a6f-2c3a692c4d23.PNG)
 
 
 
