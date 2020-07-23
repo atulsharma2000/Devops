@@ -45,6 +45,7 @@
 
 (2) Create a directory in linux, and in that directory create a file named as "Dockerfile" with all of this content as shown:
       ![1st](https://user-images.githubusercontent.com/41663027/88304968-8ca07a00-cd26-11ea-92eb-e9ee82b669a0.PNG)
+
       - here we installing latest version of centos
       - in centos we installing wget, sudo, git
       - then installing best suitable version of java (java beacuse jenkins works on java)
@@ -55,6 +56,7 @@
 (3) Now building an image from the Dockerfile and running it: 
 ![2](https://user-images.githubusercontent.com/41663027/88308579-d723f580-cd2a-11ea-8a6f-ddf1a1a1df60.PNG)
 ![3](https://user-images.githubusercontent.com/41663027/88308741-0470a380-cd2b-11ea-8162-bf13e8b615a1.PNG)
+      
       - docker build -t centkins:v1 task2/
       - docker run -it --name task centkins:v1
       
@@ -63,6 +65,7 @@
     ![j11](https://user-images.githubusercontent.com/41663027/88310718-a09baa00-cd2d-11ea-82f5-20c2c75973e7.PNG)
     ![j12](https://user-images.githubusercontent.com/41663027/88310785-b1e4b680-cd2d-11ea-88cb-cfa1b204e02b.PNG)
     ![j13](https://user-images.githubusercontent.com/41663027/88310803-b9a45b00-cd2d-11ea-9b7c-6bda92ccd144.PNG)
+      
       - here we providing github repository details to jenkins 
       - scheduling POLL SCM, so that as soon as jenkins see any update pushed by the devloper then it will pull it
       - after pulling it, jenkins will run shell command to paste the updated repository in our directory
