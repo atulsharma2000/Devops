@@ -37,7 +37,7 @@
     Container technology is a method of packaging an application so it can be run with isolated dependencies, and they have fundamentally altered the development of software         today due to their compartmentalization of a computer system.
     OS-level virtualization refers to an operating system paradigm in which the kernel allows the existence of multiple isolated user-space instances.
 
-𝐏𝐫𝐨𝐜𝐞𝐝𝐮𝐫𝐞 :
+𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧:
 
 
 
