@@ -55,6 +55,8 @@
       
 (3) Now building an image from the Dockerfile and running it: 
       - docker build -t centkins:v1 task2/
+      - docker run -it --name task centkins:v1
+      
       
       
 
