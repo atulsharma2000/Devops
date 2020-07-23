@@ -11,11 +11,9 @@
 
 5. Job2 : By looking at the code or program file, Jenkins should automatically start the respective language interpreter install image container to deploy code ( eg. If code is of PHP, then Jenkins should start the container that has PHP already installed ).
 
-6. Job3 : Test your app if it is working or not.
+6. Job3 : Test your app if it is working or not. If app is not working , then send email to developer with error messages.
 
-7. Job4 : if app is not working , then send email to developer with error messages.
-
-8. Create One extra job job5 for monitor : If container where app is running. fails due to any reson then this job should automatically start the container again.
+7. Create One extra job job4 for monitor : If container where app is running. fails due to any reson then this job should automatically start the container again.
 
 
 𝐏𝐫𝐞𝐫𝐞𝐪𝐮𝐢𝐬𝐢𝐭𝐞 :
@@ -79,9 +77,14 @@
 
       - here status of ip "192.168.190.128" should be 200, then only it will be considered working else it will exit 1.
       
- (7) Adding mailing feature so if unstable, it will mail and let us know to fix it.
+(7) Adding mailing feature so if unstable, it will mail and let us know to fix it.
 ![mail](https://user-images.githubusercontent.com/41663027/88318341-35a3a080-cd38-11ea-9a6f-2c3a692c4d23.PNG)
 
+(8) Creating JOB-4 : If the container exists, the task will fail due to exit 1. If the container is not running, the task will give a success signal. As soon as this task will succeed, the above mentioned deployment task will be auto triggered to deploy the containers.
+![jobb4](https://user-images.githubusercontent.com/41663027/88318856-fd509200-cd38-11ea-9399-c364cd4f8430.PNG)
+
+
+Thankyou.
 
 
 
