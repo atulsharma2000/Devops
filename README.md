@@ -46,6 +46,13 @@
 (2) create a directory in linux, and in that directory create a file named as "Dockerfile" with all of this content as shown:
       ![1st](https://user-images.githubusercontent.com/41663027/88304968-8ca07a00-cd26-11ea-92eb-e9ee82b669a0.PNG)
       
+      - here we installing latest version of centos
+      - in centos we installing wget, sudo, git
+      - then installing best suitable version of java (java beacuse jenkins works on java)
+      - now installing jenkins in centos 
+      - giving permissions and running jenkins
+      - exposing it to port 8080
+      
       
 
 
