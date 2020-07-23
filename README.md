@@ -74,7 +74,10 @@
 ![j2_1](https://user-images.githubusercontent.com/41663027/88316340-4dc5f080-cd35-11ea-85bd-f99faf7bf03e.PNG)
 ![j2_2](https://user-images.githubusercontent.com/41663027/88316434-777f1780-cd35-11ea-8ce2-6c925993ee35.PNG)
 
-(6) Creating JOB-3 : 
+(6) Creating JOB-3 : this job will help us testing our production and deployed work
+![j3](https://user-images.githubusercontent.com/41663027/88317259-a77aea80-cd36-11ea-8e5a-c258388cef9f.PNG)
+
+      - here status of ip "192.168.190.128" should be 200, then only it will be considered working else it will exit 1.
 
 
 
