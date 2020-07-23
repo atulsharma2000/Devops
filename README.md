@@ -43,7 +43,7 @@
 
 (1) Install VMware on your host operating system. In VMware install the RHEL8 operating system. In RHEL8 install Docker(first you have to install all the requirements of Linux and configure yum and then install docker on RHEL8).
 
-(2) create a directory in linux, and in that directory create a file named as "Dockerfile" with all of this content as shown:
+(2) Create a directory in linux, and in that directory create a file named as "Dockerfile" with all of this content as shown:
       ![1st](https://user-images.githubusercontent.com/41663027/88304968-8ca07a00-cd26-11ea-92eb-e9ee82b669a0.PNG)
       
       - here we installing latest version of centos
@@ -52,6 +52,9 @@
       - now installing jenkins in centos 
       - giving permissions and running jenkins
       - exposing it to port 8080
+      
+(3) Now building an image from the Dockerfile and running it: 
+      - docker build -t centkins:v1 task2/
       
       
 
