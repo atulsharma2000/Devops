@@ -83,7 +83,8 @@
 (8) Creating JOB-4 : If the container exists, the task will fail due to exit 1. If the container is not running, the task will give a success signal. As soon as this task will succeed, the above mentioned deployment task will be auto triggered to deploy the containers.
 ![jobb4](https://user-images.githubusercontent.com/41663027/88318856-fd509200-cd38-11ea-9399-c364cd4f8430.PNG)
 
-
+𝐂𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧 : All jobs are ready to use, now you can devlop, deploy, test and resolve easily. Thats the power of 𝓓𝓔𝓥𝓞𝓟𝓢.
+ 
 Thankyou.
 
 
