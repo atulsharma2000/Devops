@@ -60,18 +60,11 @@
       - docker build -t centkins:v1 task2/
       - docker run -it --name task centkins:v1
       
-      
-      
-
-
-
-
-
-
-
-
-
-
+(4) Now we switch to Jenkins dashboard, creating our first job.
+    job-1 is basically dealing with our production, it will automatically pull the latest updated github repository as soon as devloper push to github repository.
+    ![j11](https://user-images.githubusercontent.com/41663027/88310718-a09baa00-cd2d-11ea-82f5-20c2c75973e7.PNG)
+    ![j12](https://user-images.githubusercontent.com/41663027/88310785-b1e4b680-cd2d-11ea-88cb-cfa1b204e02b.PNG)
+    ![j13](https://user-images.githubusercontent.com/41663027/88310803-b9a45b00-cd2d-11ea-9b7c-6bda92ccd144.PNG)
 
 
 
