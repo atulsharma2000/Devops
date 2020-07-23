@@ -70,6 +70,8 @@
       - scheduling POLL SCM, so that as soon as jenkins see any update pushed by the devloper then it will pull it
       - after pulling it, jenkins will run shell command to paste the updated repository in our directory
 
+(5) Creating JOB-2 : repository pulled will be transfered to base linux using secure copy, ssh key is already configured. 
+![j2](https://user-images.githubusercontent.com/41663027/88313959-e35f8100-cd31-11ea-910b-e6116a98836d.PNG)
 
 
 
