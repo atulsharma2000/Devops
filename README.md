@@ -19,6 +19,7 @@
 
 
 𝐏𝐫𝐞𝐫𝐞𝐪𝐮𝐢𝐬𝐢𝐭𝐞 :
+
 - VMware for virtualization
 - RedHat Enterprise linux 8 image installed on VMware
 - Docker for OS-level virtualization(to create images and containers on RHEL8)
@@ -26,6 +27,7 @@
 - Github account
 
 𝐓𝐡𝐞𝐨𝐫𝐲 :
+
 - What is DevOps?
     DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with     high software quality.
 
@@ -41,9 +43,15 @@
 
 (1) Install VMware on your host operating system. In VMware install the RHEL8 operating system. In RHEL8 install Docker(first you have to install all the requirements of Linux and configure yum and then install docker on RHEL8).
 
-(2) create a directory in linux, and in that directory create a file named as "Dockerfile" with all of this content as shown
+(2) create a directory in linux, and in that directory create a file named as "Dockerfile" with all of this content as shown:
+      
       ![1st](https://user-images.githubusercontent.com/41663027/88304968-8ca07a00-cd26-11ea-92eb-e9ee82b669a0.PNG)
-
+     - here we installing latest version of centos
+     - in centos we installing wget, sudo, git
+     - then installing best suitable version of java (java beacuse jenkins works on java)
+     - now installing jenkins in centos 
+     - giving permissions and running jenkins
+     - exposing it to port 8080
 
 
 
