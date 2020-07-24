@@ -23,6 +23,7 @@
 - Docker for OS-level virtualization(to create images and containers on RHEL8)
 - Jenkins(a great DevOps tool for automation)
 - Github account
+- Install the github and the build pipeline plugin to make the github work inside the jenkins and make the jenkins environment ready for the work. .
 
 𝐓𝐡𝐞𝐨𝐫𝐲 :
 
